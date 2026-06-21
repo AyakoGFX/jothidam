@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-06-21 Sun 02:37 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Decoding Astrology: The Subathuvam &amp; Paavathuvam Logic of Aditya Guruji</title>
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Decoding Astrology: The Subathuvam &amp; Paavathuvam Logic of Aditya Guruji</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orge32f494">Decoding Astrology: The Subathuvam &amp; Paavathuvam Logic of Aditya Guruji</a></li>
+<li><a href="#org2970c24">1. Quick Glossary: Key Astrology Terms Used by Aditya Guruji</a></li>
+<li><a href="#orgbdc90b7">2. The Core Principle: The Scale of Purity vs. Corruption</a>
+<ul>
+<li><a href="#org9ed81c5">The Cosmic Vectors</a>
+<ul>
+<li><a href="#org999ee79">The Purifiers (Natural Benefics)</a></li>
+<li><a href="#orgbabd2a7">The Corrupters (Natural Malefics)</a></li>
+</ul>
+</li>
+<li><a href="#org7643369">The Purifier Analogy</a></li>
+</ul>
+</li>
+<li><a href="#orgca85d07">3. Understanding Subtle Strength (Sootchuma Valu)</a></li>
+<li><a href="#org61bad6e">4. A Practical Case Study: Aries Ascendant (Mesha Lagna)</a>
+<ul>
+<li><a href="#orgd44aaa1">Example Horoscope Layout</a></li>
+<li><a href="#org6fb078f">Astrological Rule Reminder (Planetary Aspects / Parvai)</a>
+<ul>
+<li><a href="#org401e29b">Jupiter (Guru)</a></li>
+<li><a href="#org1e6c53f">Saturn (Sani)</a></li>
+<li><a href="#org1bd02c0">Mars (Sevvai)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org3fd197d">5. Analysis 1: The High Subathuvam (Purified) Saturn</a>
+<ul>
+<li><a href="#orga1276de">Step 1: The Aspect Check</a></li>
+<li><a href="#org1f03dc5">Step 2: Counting the Gaze</a></li>
+<li><a href="#orge16d357">Interpretation</a></li>
+</ul>
+</li>
+<li><a href="#org48b9bf9">6. Analysis 2: The High Paavathuvam (Corrupted) Moon</a>
+<ul>
+<li><a href="#org10cba6f">Step 1: The Baseline</a></li>
+<li><a href="#orga733ef6">Step 2: The Shadow Corruption</a></li>
+<li><a href="#orgf4aa8c4">Step 3: The Mars Attack</a></li>
+<li><a href="#org15cd127">Interpretation</a></li>
+</ul>
+</li>
+<li><a href="#org646e9b9">7. Summary Checklist for Chart Reading</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge32f494" class="outline-2">
+<h2 id="orge32f494">Decoding Astrology: The Subathuvam &amp; Paavathuvam Logic of Aditya Guruji</h2>
+<div class="outline-text-2" id="text-orge32f494">
+<p>
+Vedic Astrology (<i>Jyotish</i>) contains thousands of rules compiled over centuries. For a beginner, balancing these rules can feel completely overwhelming. One school of thought that has heavily simplified chart interpretation in the modern era is the framework taught by <b>Aditya Guruji</b> (popularized on <i>Guruji TV</i>).
+</p>
+
+<p>
+Rather than treating ancient planetary rules as rigid, unbending laws, his framework introduces a fluid, logical grading system based on a planet's structural purity. This guide breaks down his core principles using clear English equivalents so that any beginner can instantly apply them to a horoscope.
+</p>
+</div>
+</div>
+<div id="outline-container-org2970c24" class="outline-2">
+<h2 id="org2970c24">1. Quick Glossary: Key Astrology Terms Used by Aditya Guruji</h2>
+<div class="outline-text-2" id="text-org2970c24">
+<p>
+Before diving into the logic, here is a quick one-line cheat sheet of the terms frequently used in his videos:
+</p>
+
+<ul class="org-ul">
+<li><b>Subathuvam (சுபத்துவம்) / Beneficence:</b> The structural purification of a planet or house through the influence of natural good planets.</li>
+<li><b>Paavathuvam (பாவத்துவம்) / Maleficence:</b> The structural corruption or darkening of a planet or house through the influence of natural cruel planets.</li>
+<li><b>Sootchuma Valu (சூட்சும வலு) / Subtle Strength:</b> Hidden, underlying, or structural power that allows a seemingly weak planet to give unexpected fortunes.</li>
+<li><b>Sthoola Valu (ஸ்தூல வலு) / Gross Strength:</b> Visible, obvious planetary strength based on zodiac positions (like being in its own house or exalted).</li>
+<li><b>Ucham (உச்சம்) / Exaltation:</b> The peak structural position where a planet functions at maximum external intensity.</li>
+<li><b>Neecham (நீசம்) / Debilitation:</b> The lowest structural position where a planet loses its obvious external power.</li>
+<li><b>Adhipathiyam (அதிபத்தியம்) / Lordship:</b> The inherent ownership or responsibility a planet has over specific houses in a chart based on your Ascendant.</li>
+<li><b>Parivarthanai (பரிவர்த்தனை) / Mutual Exchange:</b> A powerful cosmic arrangement where two planets sit in each other's zodiac signs, effectively switching keys to their houses.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbdc90b7" class="outline-2">
+<h2 id="orgbdc90b7">2. The Core Principle: The Scale of Purity vs. Corruption</h2>
+<div class="outline-text-2" id="text-orgbdc90b7">
+<p>
+The foundational breakthrough of Aditya Guruji’s logic is simple:
+</p>
+
+<blockquote>
+<p>
+A planet’s ultimate capacity to give peaceful material success or deep suffering depends entirely on its mix of Subathuvam (Purity) and Paavathuvam (Corruption).
+</p>
+</blockquote>
+
+<p>
+Traditional astrology teaches that if a planet is an enemy to your Ascendant, it will do evil. Guruji argues that a planet’s inherent nature as a <b>Natural Benefic</b> or <b>Natural Malefic</b> acts as a baseline that dictates <i>how</i> it handles power.
+</p>
+</div>
+<div id="outline-container-org9ed81c5" class="outline-3">
+<h3 id="org9ed81c5">The Cosmic Vectors</h3>
+<div class="outline-text-3" id="text-org9ed81c5">
+</div>
+<div id="outline-container-org999ee79" class="outline-4">
+<h4 id="org999ee79">The Purifiers (Natural Benefics)</h4>
+<div class="outline-text-4" id="text-org999ee79">
+<ul class="org-ul">
+<li>Jupiter (<i>Guru</i>)</li>
+<li>Venus (<i>Sukran</i>)</li>
+<li>A Waxing Moon (<i>Valarpirai Chandran</i>)</li>
+<li>An unafflicted Mercury (<i>Budhan</i>)</li>
+</ul>
+
+<p>
+These planets emit smooth, life-giving radiation.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbabd2a7" class="outline-4">
+<h4 id="orgbabd2a7">The Corrupters (Natural Malefics)</h4>
+<div class="outline-text-4" id="text-orgbabd2a7">
+<ul class="org-ul">
+<li>Saturn (<i>Sani</i>)</li>
+<li>Mars (<i>Sevvai</i>)</li>
+<li>Rahu</li>
+<li>Ketu</li>
+<li>The Sun (<i>Suryan</i> — treated as a hot, mild malefic)</li>
+</ul>
+
+<p>
+These planets emit harsh, volatile, or chaotic energy.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7643369" class="outline-3">
+<h3 id="org7643369">The Purifier Analogy</h3>
+<div class="outline-text-3" id="text-org7643369">
+<p>
+Think of a natural malefic planet like Saturn or Mars as a bucket of muddy water. If you drink it raw, it makes you sick (suffering, delays, accidents).
+</p>
+
+<p>
+However, if you pass that muddy water through a high-grade filter—which represents the direct sight or connection of <b>Jupiter</b> or *Venus*—the mud is completely filtered out. The water becomes crystal clear.
+</p>
+
+<p>
+It is still water (Saturn remains Saturn, ruling over labor, industry, and discipline), but it is now safe, refined, and highly rewarding to experience.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgca85d07" class="outline-2">
+<h2 id="orgca85d07">3. Understanding Subtle Strength (Sootchuma Valu)</h2>
+<div class="outline-text-2" id="text-orgca85d07">
+<p>
+Beginners often get confused when a person with an exalted (<i>Ucham</i>) planet suffers deeply, while someone with a debilitated (<i>Neecham</i>) planet becomes a millionaire.
+</p>
+
+<p>
+Guruji explains this using <b>Sthoola Valu (Obvious Strength)</b> vs. <b>Sootchuma Valu (Subtle Strength)</b>.
+</p>
+
+<ul class="org-ul">
+<li><b>Sthoola Valu:</b> Like a massive, heavy iron safe. It is highly visible, solid, and undeniable.</li>
+<li><b>Sootchuma Valu:</b> Like a tiny digital keycard containing a password to a multi-million dollar bank account. It doesn't look heavy or impressive, but it holds immense functional power.</li>
+</ul>
+
+<p>
+When a planet sits in an evil house (6th, 8th, or 12th) or is debilitated, it loses its obvious strength. But if it connects with a shadow planet like Rahu in a highly specific degree, or undergoes a <b>Parivarthanai (House Exchange)</b>, it gains a hidden backdoor pathway to deliver massive wealth suddenly.
+</p>
+</div>
+</div>
+<div id="outline-container-org61bad6e" class="outline-2">
+<h2 id="org61bad6e">4. A Practical Case Study: Aries Ascendant (Mesha Lagna)</h2>
+<div class="outline-text-2" id="text-org61bad6e">
+<p>
+To see how this works in practice, let us look at a custom astrological chart laid out in the traditional <b>South Indian style</b>.
+</p>
+</div>
+<div id="outline-container-orgd44aaa1" class="outline-3">
+<h3 id="orgd44aaa1">Example Horoscope Layout</h3>
+<div class="outline-text-3" id="text-orgd44aaa1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Pisces (Meenam)</th>
+<th scope="col" class="org-left">Aries (Mesham)</th>
+<th scope="col" class="org-left">Taurus (Rishabam)</th>
+<th scope="col" class="org-left">Gemini (Midhunam)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">12th House</td>
+<td class="org-left">1st House</td>
+<td class="org-left">2nd House</td>
+<td class="org-left">3rd House</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ASCENDANT / LAGNA</td>
+<td class="org-left">Mars (Sevvai)</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Aquarius (Kumbham)</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Cancer (Kadagam)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">11th House</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">4th House</td>
+</tr>
+
+<tr>
+<td class="org-left">Saturn (Sani)</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Capricorn (Magaram)</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Leo (Simham)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">10th House</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">5th House</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Jupiter (Guru)</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Sagittarius (Dhanusu)</th>
+<th scope="col" class="org-left">Scorpio (Viruchigam)</th>
+<th scope="col" class="org-left">Libra (Thulaam)</th>
+<th scope="col" class="org-left">Virgo (Kanni)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">9th House</td>
+<td class="org-left">8th House</td>
+<td class="org-left">7th House</td>
+<td class="org-left">6th House</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Moon + Rahu</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org6fb078f" class="outline-3">
+<h3 id="org6fb078f">Astrological Rule Reminder (Planetary Aspects / Parvai)</h3>
+<div class="outline-text-3" id="text-org6fb078f">
+<p>
+Before analyzing, remember the exact mathematical sight rules that planets use to influence each other.
+</p>
+</div>
+<div id="outline-container-org401e29b" class="outline-4">
+<h4 id="org401e29b">Jupiter (Guru)</h4>
+<div class="outline-text-4" id="text-org401e29b">
+<p>
+Jupiter aspects:
+</p>
+
+<ul class="org-ul">
+<li>5th house</li>
+<li>7th house</li>
+<li>9th house</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1e6c53f" class="outline-4">
+<h4 id="org1e6c53f">Saturn (Sani)</h4>
+<div class="outline-text-4" id="text-org1e6c53f">
+<p>
+Saturn aspects:
+</p>
+
+<ul class="org-ul">
+<li>3rd house</li>
+<li>7th house</li>
+<li>10th house</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1bd02c0" class="outline-4">
+<h4 id="org1bd02c0">Mars (Sevvai)</h4>
+<div class="outline-text-4" id="text-org1bd02c0">
+<p>
+Mars aspects:
+</p>
+
+<ul class="org-ul">
+<li>4th house</li>
+<li>7th house</li>
+<li>8th house</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org3fd197d" class="outline-2">
+<h2 id="org3fd197d">5. Analysis 1: The High Subathuvam (Purified) Saturn</h2>
+<div class="outline-text-2" id="text-org3fd197d">
+<p>
+In this chart, <b>Saturn</b> is placed in Aquarius, its own sign (<i>Sthoola Valu</i>), ruling the 11th house of gains.
+</p>
+</div>
+<div id="outline-container-orga1276de" class="outline-3">
+<h3 id="orga1276de">Step 1: The Aspect Check</h3>
+<div class="outline-text-3" id="text-orga1276de">
+<p>
+Look at the 5th house (<b>Leo</b>).
+</p>
+
+<p>
+<b>Jupiter</b> is seated there.
+</p>
+</div>
+</div>
+<div id="outline-container-org1f03dc5" class="outline-3">
+<h3 id="org1f03dc5">Step 2: Counting the Gaze</h3>
+<div class="outline-text-3" id="text-org1f03dc5">
+<p>
+Count clockwise starting from Leo as 1:
+</p>
+
+<ol class="org-ol">
+<li>Leo</li>
+<li>Virgo</li>
+<li>Libra</li>
+<li>Scorpio</li>
+<li>Sagittarius</li>
+<li>Capricorn</li>
+<li>Aquarius</li>
+</ol>
+
+<p>
+Jupiter throws its powerful <b>7th-house direct aspect</b> onto Saturn.
+</p>
+</div>
+</div>
+<div id="outline-container-orge16d357" class="outline-3">
+<h3 id="orge16d357">Interpretation</h3>
+<div class="outline-text-3" id="text-orge16d357">
+<p>
+Saturn has achieved high <b>Subathuvam</b>.
+</p>
+
+<p>
+Because it is purified by Jupiter, its cruel and delaying nature is neutralized.
+</p>
+
+<p>
+During Saturn’s planetary period (<i>Dasha</i>), instead of working a low-paying, grueling job, this native may experience meteoric success.
+</p>
+
+<p>
+Possible outcomes include:
+</p>
+
+<ul class="org-ul">
+<li>Running large factories</li>
+<li>Leading labor unions</li>
+<li>Managing heavy machinery corporations</li>
+<li>Gaining political power</li>
+</ul>
+
+<p>
+This represents smooth wealth through Saturnian industries.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org48b9bf9" class="outline-2">
+<h2 id="org48b9bf9">6. Analysis 2: The High Paavathuvam (Corrupted) Moon</h2>
+<div class="outline-text-2" id="text-org48b9bf9">
+<p>
+Now look at the <b>Moon</b> sitting in Scorpio, the 8th house for this Ascendant.
+</p>
+</div>
+<div id="outline-container-org10cba6f" class="outline-3">
+<h3 id="org10cba6f">Step 1: The Baseline</h3>
+<div class="outline-text-3" id="text-org10cba6f">
+<p>
+The Moon is inherently debilitated (<i>Neecham</i>) in Scorpio, meaning its structural baseline strength is low.
+</p>
+</div>
+</div>
+<div id="outline-container-orga733ef6" class="outline-3">
+<h3 id="orga733ef6">Step 2: The Shadow Corruption</h3>
+<div class="outline-text-3" id="text-orga733ef6">
+<p>
+The Moon is sitting right next to <b>Rahu</b>, creating an eclipse effect (<i>Grahana</i>) that darkens the mind.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf4aa8c4" class="outline-3">
+<h3 id="orgf4aa8c4">Step 3: The Mars Attack</h3>
+<div class="outline-text-3" id="text-orgf4aa8c4">
+<p>
+Look at <b>Mars</b> sitting in Taurus (the 2nd house).
+</p>
+
+<p>
+Count Mars's aspects clockwise from Taurus as 1:
+</p>
+
+<ol class="org-ol">
+<li>Taurus</li>
+<li>Gemini</li>
+<li>Cancer</li>
+<li>Leo</li>
+<li>Virgo</li>
+<li>Libra</li>
+<li>Scorpio</li>
+</ol>
+
+<p>
+Mars hits Scorpio with its <b>7th-house direct aspect</b>.
+</p>
+</div>
+</div>
+<div id="outline-container-org15cd127" class="outline-3">
+<h3 id="org15cd127">Interpretation</h3>
+<div class="outline-text-3" id="text-org15cd127">
+<p>
+The Moon has reached near <b>100% Paavathuvam</b>.
+</p>
+
+<p>
+It is:
+</p>
+
+<ul class="org-ul">
+<li>Debilitated</li>
+<li>Eclipsed by Rahu</li>
+<li>Aspected by Mars</li>
+<li>Unprotected by Jupiter or Venus</li>
+</ul>
+
+<p>
+Because the Moon rules the human mind, emotions, and mother, this planetary period may become extremely difficult.
+</p>
+
+<p>
+Possible manifestations:
+</p>
+
+<ul class="org-ul">
+<li>Severe emotional distress</li>
+<li>Deep anxiety</li>
+<li>Sleeping disorders</li>
+<li>Difficulties related to the mother</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org646e9b9" class="outline-2">
+<h2 id="org646e9b9">7. Summary Checklist for Chart Reading</h2>
+<div class="outline-text-2" id="text-org646e9b9">
+<p>
+When looking at any horoscope using Aditya Guruji's logic, do not simply check whether a planet is in a "good" or "bad" house.
+</p>
+
+<p>
+Instead, follow this workflow:
+</p>
+
+<pre class="example" id="org656d7bd">
+Step 1: Identify the planet you want to study.
+
+Step 2: Check its baseline state.
+(Is it Ucham, Neecham, or in its own house?)
+
+Step 3: Scan for Purifiers.
+(Is Jupiter, Venus, or a bright Moon looking at it or sitting with it?)
+
+Step 4: Scan for Corrupters.
+(Is Saturn, Mars, or Rahu/Ketu casting an aspect on it?)
+
+Step 5: Weigh the scale.
+
+If Subathuvam wins:
+→ Expect premium, smooth results.
+
+If Paavathuvam wins:
+→ Expect friction and structural challenges.
+</pre>
+
+<p>
+By viewing horoscopes through this lens of energetic filtration, interpreting a chart becomes a logical science rather than a confusing guessing game of contradictory ancient rules.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2026-06-21 Sun 02:37</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

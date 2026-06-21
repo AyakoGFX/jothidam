@@ -1,0 +1,12 @@
+mkdir -p ../drawy_compressed && find . -type d | while read -r dir; do mkdir -p "../drawy_compressed/$dir"; done && find . -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" \) | while read -r file; do ffmpeg -i "$file" -q:v 30 "../drawy_compressed/${file%.*}.webp" -y; done
+
+
+What this script does step-by-step:
+
+    mkdir -p ../drawy_compressed ...: Creates a new destination directory right outside your current folder so your originals remain safe.
+
+    find . -type d ...: Scans your entire drawy folder and recreates the exact same nested folder structure (nakshatras, nakshatras/other, planets, etc.) inside the new location.
+
+    ffmpeg -i ... -q:v 30 ...: Finds all images, converts them, and saves them with the exact same file name but with a .webp extension.
+
+    Note on Quality: I set -q:v 30 (default is usually 75). This aggressively cuts down the file size (over 70-80% smaller than your original JPGs) for maximum loading speed, while still keeping the text or drawings in Drawy readable. If you want it even lighter, you can drop that number down to 20.
