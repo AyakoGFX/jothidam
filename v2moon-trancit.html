@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-07-19 Sun 15:57 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="xshwa" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgf875025">1. Master Guide to Rashi Gochar Vedha and Lunar Transits</a>
+<ul>
+<li><a href="#orgda30bb3">1.1. 1. The Fundamental Principle: The Mind and the Moon</a></li>
+<li><a href="#org9612785">1.2. 2. Core Concepts: Vedha and Vipreet Vedha</a>
+<ul>
+<li><a href="#org6f394d3">1.2.1. Vedha (Planetary Obstruction)</a></li>
+<li><a href="#orgbf14165">1.2.2. Vipreet Vedha (Reverse Obstruction)</a></li>
+</ul>
+</li>
+<li><a href="#org858eb88">1.3. 3. Deep Dive: The 12 House Transits of the Moon</a>
+<ul>
+<li><a href="#org15c7944">1.3.1. A. Favorable Transits (Ishtasthanam)</a></li>
+<li><a href="#orgcc61b1e">1.3.2. B. Unfavorable Transits (Vedasthanam / Malefic Places)</a></li>
+</ul>
+</li>
+<li><a href="#org34a0573">1.4. 4. The Master Planetary Vedha Table</a>
+<ul>
+<li><a href="#org477e4a5">1.4.1. Crucial Exceptions to Vedha</a></li>
+</ul>
+</li>
+<li><a href="#orgcd8a833">1.5. 5. The Ashtakavarga</a></li>
+<li><a href="#org71813e1">1.6. SUN: Good Houses vs. Blocking Houses</a></li>
+<li><a href="#org30e029b">1.7. MOON: Good Houses vs. Blocking Houses</a></li>
+<li><a href="#orge1e9457">1.8. MARS / SATURN / RAHU / KETU: Good Houses vs. Blocking Houses</a></li>
+<li><a href="#org2edfdb1">1.9. MERCURY: Good Houses vs. Blocking Houses</a></li>
+<li><a href="#org54052b1">1.10. JUPITER: Good Houses vs. Blocking Houses</a></li>
+<li><a href="#orgb2638dc">1.11. VENUS: Good Houses vs. Blocking Houses</a>
+<ul>
+<li><a href="#orga555492">1.11.1. links</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf875025" class="outline-2">
+<h2 id="orgf875025"><span class="section-number-2">1.</span> Master Guide to Rashi Gochar Vedha and Lunar Transits</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgda30bb3" class="outline-3">
+<h3 id="orgda30bb3"><span class="section-number-3">1.1.</span> 1. The Fundamental Principle: The Mind and the Moon</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Everyone experiences days that are exceptionally peaceful and days filled with unexpected tension. In Vedic astrology, daily happiness, peace, and satisfaction originate entirely from the state of the human mind.
+</p>
+
+<ul class="org-ul">
+<li><b>The Moon as the Ruler:</b> The Moon is the <i>Manokaraka</i> (the celestial factor controlling the mind).</li>
+<li><b>The Transit Timeline:</b> Unlike slower planets, the Moon travels rapidly through the 12 zodiac signs, staying in a single sign for approximately 2¼ days (54 hours).</li>
+<li><b>Gochara Strength:</b> Daily predictions are not calculated from your birth ascendant (Lagna), but rather from your Moon sign (Janma Rashi). If the transiting Moon is in an auspicious position relative to your birth Rasi, your day will be successful; if it is in a malefic position, obstacles will arise.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9612785" class="outline-3">
+<h3 id="org9612785"><span class="section-number-3">1.2.</span> 2. Core Concepts: Vedha and Vipreet Vedha</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+<i>Gochar</i> means transit—the continuous movement of planets through the 12 zodiac signs relative to your Natal Moon. Every planet has specific houses where it is naturally capable of giving auspicious results (<i>Ishtasthanam</i>). However, these results are not absolute. They are governed by the laws of <i>Vedha</i> (Obstruction).
+</p>
+</div>
+<div id="outline-container-org6f394d3" class="outline-4">
+<h4 id="org6f394d3"><span class="section-number-4">1.2.1.</span> Vedha (Planetary Obstruction)</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+The word Vedha means "piercing" or "blocking." Even if a planet enters a highly favorable house from your Moon, it cannot deliver its positive results if another planet occupies a specific corresponding house at the exact same time. The house causing the blockage is called the <i>Vedha Sthana</i>.
+</p>
+<ul class="org-ul">
+<li><b>Analogy:</b> Think of it like placing a massive wooden board in front of a bright torch—the light exists, but it cannot reach you.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbf14165" class="outline-4">
+<h4 id="orgbf14165"><span class="section-number-4">1.2.2.</span> Vipreet Vedha (Reverse Obstruction)</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<p>
+Just as good results can be blocked, bad results can also be neutralized. If a planet is transiting an unfavorable house (where it is supposed to give bad results), but another planet is sitting in its corresponding favorable house, the malefic effects of the transit are blocked or minimized, providing a protective shield.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org858eb88" class="outline-3">
+<h3 id="org858eb88"><span class="section-number-3">1.3.</span> 3. Deep Dive: The 12 House Transits of the Moon</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+The impact of the Moon shifts dramatically depending on which house it is transiting relative to your birth sign.
+</p>
+</div>
+<div id="outline-container-org15c7944" class="outline-4">
+<h4 id="org15c7944"><span class="section-number-4">1.3.1.</span> A. Favorable Transits (Ishtasthanam)</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<p>
+When the Moon passes through the 1st, 3rd, 6th, 7th, 10th, and 11th houses, it brings positive results, provided it does not suffer from Vedha:
+</p>
+<ul class="org-ul">
+<li><b>1st House (Natal Moon):</b> Delivers satisfying food, peaceful sleep, financial profits, and the desire to purchase new clothes or gifts. It brings general domestic peace and maternal happiness. (Obstructed by a planet in the 5th House)</li>
+<li><b>3rd House:</b> Brings unexpected monetary gains, support or happiness from women, career promotions, and sudden profits in business. (Obstructed by a planet in the 9th House)</li>
+<li><b>6th House:</b> Promotes excellent physical health, mental bliss, financial growth, and the systematic weakening of your enemies' influence. (Obstructed by a planet in the 12th House)</li>
+<li><b>7th House:</b> Guarantees satisfying meals, deep sleep, supplemental income, and a high level of social respect and public value. (Obstructed by a planet in the 2nd House)</li>
+<li><b>10th House:</b> Bestows "royal respect" (high recognition), significant developments or promotions at work, professional praise, physical vitality, and mental contentment. (Obstructed by a planet in the 4th House)</li>
+<li><b>11th House:</b> The house of pure gain. Relatives and friends bring gifts or business opportunities, loans are easily approved, and career ambitions are successfully fulfilled. (Obstructed by a planet in the 8th House)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcc61b1e" class="outline-4">
+<h4 id="orgcc61b1e"><span class="section-number-4">1.3.2.</span> B. Unfavorable Transits (Vedasthanam / Malefic Places)</h4>
+<div class="outline-text-4" id="text-1-3-2">
+<p>
+When the Moon passes through the 2nd, 4th, 5th, 8th, 9th, and 12th houses, it triggers vulnerabilities:
+</p>
+<ul class="org-ul">
+<li><b>2nd House:</b> Causes Karmic Vignam (obstacles in daily operations). Easy tasks become tedious, financial losses or home thefts can occur, and minor dishonor or reputational damage may manifest.</li>
+<li><b>4th House:</b> Induces a constant fear of losing one's job or status. Prone to water-borne ailments (severe colds/throat issues) and unnecessary domestic lawsuits or relative disputes.</li>
+<li><b>5th House:</b> Manifests as physical lethargy or arthritis-like discomfort (numbness in hands and feet), alongside heavy mental anxiety, sorrow, and operational delays.</li>
+<li><b>8th House (Chandrashtama):</b> Highly Malefic. Triggers intense mental confusion, poor decision-making capacity (feeling like "a fading lamp in a wild forest"), a severe risk of food poisoning or stomach distress, and sudden, intense anger that leads to unnecessary fights.</li>
+<li><b>9th House:</b> Completely drains personal courage and self-confidence. Hesitation dominates decision-making, unexpected stomach aches occur, and progress stalls.</li>
+<li><b>12th House:</b> Triggers profound laziness, absolute loss of interest in work, eating, or studying, and severe mental depression. Monies promised by debtors are delayed, and business encounters stagnation.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org34a0573" class="outline-3">
+<h3 id="org34a0573"><span class="section-number-3">1.4.</span> 4. The Master Planetary Vedha Table</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+To calculate whether a planet's transit results are active or obstructed, use this universal master matrix pairing favorable houses with their corresponding obstructing (Vedha) houses.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Transiting Planet</th>
+<th scope="col" class="org-left">Auspicious Houses (From Moon)</th>
+<th scope="col" class="org-left">Corresponding Obstructing (Vedha) Houses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Moon</td>
+<td class="org-left">1, 3, 6, 7, 10, 11</td>
+<td class="org-left">5, 9, 12, 2, 4, 8 (respectively)</td>
+</tr>
+
+<tr>
+<td class="org-left">Sun</td>
+<td class="org-left">3, 6, 10, 11</td>
+<td class="org-left">9, 12, 4, 5 (respectively)</td>
+</tr>
+
+<tr>
+<td class="org-left">Mars</td>
+<td class="org-left">3, 6, 11</td>
+<td class="org-left">12, 9, 5 (respectively)</td>
+</tr>
+
+<tr>
+<td class="org-left">Mercury</td>
+<td class="org-left">2, 4, 6, 8, 10, 11</td>
+<td class="org-left">5, 3, 9, 1, 8, 12 (respectively)</td>
+</tr>
+
+<tr>
+<td class="org-left">Jupiter</td>
+<td class="org-left">2, 5, 7, 9, 11</td>
+<td class="org-left">12, 4, 3, 10, 8 (respectively)</td>
+</tr>
+
+<tr>
+<td class="org-left">Venus</td>
+<td class="org-left">1, 2, 3, 4, 5, 8, 9, 11, 12</td>
+<td class="org-left">8, 7, 1, 10, 9, 5, 11, 6, 3 (respectively)</td>
+</tr>
+
+<tr>
+<td class="org-left">Saturn</td>
+<td class="org-left">3, 6, 11</td>
+<td class="org-left">12, 9, 5 (respectively)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="outline-container-org477e4a5" class="outline-4">
+<h4 id="org477e4a5"><span class="section-number-4">1.4.1.</span> Crucial Exceptions to Vedha</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<p>
+Certain planets share relationships that make them immune to mutual obstruction:
+</p>
+<ul class="org-ul">
+<li><b>Sun and Saturn:</b> Mythologically father and son, they do not obstruct one another. If the Sun is in its auspicious 11th house and Saturn is in the 5th house, Saturn will not block the Sun's blessings.</li>
+<li><b>Moon and Mercury:</b> These two fast-moving planets are exempt from mutual obstruction. Mercury sitting in the Vedha point of the Moon will not block the Moon, and vice versa.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcd8a833" class="outline-3">
+<h3 id="orgcd8a833"><span class="section-number-3">1.5.</span> 5. The Ashtakavarga</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+To understand why generic daily horoscopes do not always come true, baseline Gochara transits must be overlaid with personalized structural metrics:
+</p>
+
+<ul class="org-ul">
+<li><b>The Rule of Ashtakavarga Bindus:</b> Every individual horoscope contains a personalized Ashtakavarga chart mapping out strength points (Bindus) ranging from 0 to 8 for each zodiac sign.
+<ul class="org-ul">
+<li><b>More than 4 Bindus (&gt; 4):</b> If a planet transits a sign where your birth chart holds more than 4 points, malefic transits (like Chandrashtama or the 12th house) lose their destructive power, and auspicious transits yield maximum rewards.</li>
+<li><b>Less than 4 Bindus (&lt; 4):</b> If a sign has only 2 or 3 points, even a standard "favorable" transit will fail to produce good results, leading to unexpected stagnation.</li>
+</ul></li>
+<li><b>Gochar Murthis:</b> Planets also assume a specific metal form (Murthi) when entering a new sign based on the position of the Moon at that exact moment: Gold (Highly Auspicious), Silver (Auspicious), Copper (Average), or Iron (Malefic). An iron-state planet transiting a low-Bindu house under Vedha obstruction indicates highly challenging operational periods.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org71813e1" class="outline-3">
+<h3 id="org71813e1"><span class="section-number-3">1.6.</span> SUN: Good Houses vs. Blocking Houses</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+If the Sun is in these <b>favorable</b> houses, its results get <b>blocked</b> if another planet occupies the paired house:
+</p>
+<ul class="org-ul">
+<li>3rd GOOD ⟶ Blocked by 9th</li>
+<li>6th GOOD ⟶ Blocked by 12th</li>
+<li>10th GOOD ⟶ Blocked by 4th</li>
+<li>11th GOOD ⟶ Blocked by 5th</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org30e029b" class="outline-3">
+<h3 id="org30e029b"><span class="section-number-3">1.7.</span> MOON: Good Houses vs. Blocking Houses</h3>
+<div class="outline-text-3" id="text-1-7">
+<ul class="org-ul">
+<li>1st GOOD ⟶ Blocked by 5th</li>
+<li>3rd GOOD ⟶ Blocked by 9th</li>
+<li>6th GOOD ⟶ Blocked by 12th</li>
+<li>7th GOOD ⟶ Blocked by 2nd</li>
+<li>10th GOOD ⟶ Blocked by 4th</li>
+<li>11th GOOD ⟶ Blocked by 8th</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge1e9457" class="outline-3">
+<h3 id="orge1e9457"><span class="section-number-3">1.8.</span> MARS / SATURN / RAHU / KETU: Good Houses vs. Blocking Houses</h3>
+<div class="outline-text-3" id="text-1-8">
+<ul class="org-ul">
+<li>3rd GOOD ⟶ Blocked by 12th</li>
+<li>6th GOOD ⟶ Blocked by 9th</li>
+<li>11th GOOD ⟶ Blocked by 5th</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2edfdb1" class="outline-3">
+<h3 id="org2edfdb1"><span class="section-number-3">1.9.</span> MERCURY: Good Houses vs. Blocking Houses</h3>
+<div class="outline-text-3" id="text-1-9">
+<ul class="org-ul">
+<li>2nd GOOD ⟶ Blocked by 5th</li>
+<li>4th GOOD ⟶ Blocked by 3rd</li>
+<li>6th GOOD ⟶ Blocked by 9th</li>
+<li>8th GOOD ⟶ Blocked by 1st</li>
+<li>10th GOOD ⟶ Blocked by 8th</li>
+<li>11th GOOD ⟶ Blocked by 2nd</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org54052b1" class="outline-3">
+<h3 id="org54052b1"><span class="section-number-3">1.10.</span> JUPITER: Good Houses vs. Blocking Houses</h3>
+<div class="outline-text-3" id="text-1-10">
+<ul class="org-ul">
+<li>2nd GOOD ⟶ Blocked by 12th</li>
+<li>5th GOOD ⟶ Blocked by 4th</li>
+<li>7th GOOD ⟶ Blocked by 3rd</li>
+<li>9th GOOD ⟶ Blocked by 10th</li>
+<li>11th GOOD ⟶ Blocked by 8th</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb2638dc" class="outline-3">
+<h3 id="orgb2638dc"><span class="section-number-3">1.11.</span> VENUS: Good Houses vs. Blocking Houses</h3>
+<div class="outline-text-3" id="text-1-11">
+<ul class="org-ul">
+<li>1st GOOD ⟶ Blocked by 7th</li>
+<li>2nd GOOD ⟶ Blocked by 7th</li>
+<li>3rd GOOD ⟶ Blocked by 1st</li>
+<li>4th GOOD ⟶ Blocked by 10th</li>
+<li>5th GOOD ⟶ Blocked by 9th</li>
+<li>8th GOOD ⟶ Blocked by 5th</li>
+<li>9th GOOD ⟶ Blocked by 11th</li>
+<li>11th GOOD ⟶ Blocked by 6th</li>
+<li>12th GOOD ⟶ Blocked by 3rd</li>
+</ul>
+</div>
+<div id="outline-container-orga555492" class="outline-4">
+<h4 id="orga555492"><span class="section-number-4">1.11.1.</span> links</h4>
+<div class="outline-text-4" id="text-1-11-1">
+<ul class="org-ul">
+<li><a href="https://youtu.be/nxcEd7T16po?si=2dbuHtQq2SMd7xyF">https://youtu.be/nxcEd7T16po?si=2dbuHtQq2SMd7xyF</a></li>
+<li><a href="https://youtu.be/Fl3sU1Ro27w?si=1CnJP0UMkBqLR4_D">https://youtu.be/Fl3sU1Ro27w?si=1CnJP0UMkBqLR4_D</a></li>
+<li><a href="https://www.scribd.com/presentation/951983372/Vedha-and-Vipreet-Vedha-Positions-of-Planets">https://www.scribd.com/presentation/951983372/Vedha-and-Vipreet-Vedha-Positions-of-Planets</a></li>
+<li><a href="https://ashtakvargajyoti.wordpress.com/2015/01/30/rashi-gochar-vedha-transit-based-planetary-obstruction/">https://ashtakvargajyoti.wordpress.com/2015/01/30/rashi-gochar-vedha-transit-based-planetary-obstruction/</a></li>
+<li><a href="https://www.facebook.com/tvamapp/posts/%EF%B8%8F-this-concept-of-vedha-will-blow-your-mind-it-will-shatter-the-way-you-read-tra/1345595454253973/">https://www.facebook.com/tvamapp/posts/%EF%B8%8F-this-concept-of-vedha-will-blow-your-mind-it-will-shatter-the-way-you-read-tra/1345595454253973/</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: xshwa</p>
+<p class="date">Created: 2026-07-19 Sun 15:57</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

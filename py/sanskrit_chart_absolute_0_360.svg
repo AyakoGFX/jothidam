@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 1120" width="100%" height="100%">
+
+    <style>
+        .bg { fill: #fdfcf7; }
+        .grid-line { stroke: #3e2723; stroke-width: 2.5; stroke-linecap: round; fill: none; }
+        .center-bg { fill: #f5f1e6; }
+        .sign-title { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #1a1a1a; }
+        .sign-range { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11px; fill: #7f8c8d; font-weight: 500; }
+        .padam-name { font-family: 'Courier New', Courier, monospace; font-size: 11px; font-weight: bold; fill: #2c3e50; }
+        .padam-deg { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11px; fill: #d35400; font-weight: bold; }
+        .center-title { font-family: 'Georgia', serif; font-size: 32px; font-weight: bold; fill: #3e2723; text-anchor: middle; letter-spacing: 2px; }
+    </style>
+    
+<rect width="1120" height="1120" class="bg" />
+<rect x="280" y="280" width="560" height="560" class="center-bg" />
+<text x="560.0" y="570.0" class="center-title">NAKSHATRA PADAM CHART</text>
+<rect x="0" y="0" width="1120" height="1120" class="grid-line" />
+<rect x="280" y="280" width="560" height="560" class="grid-line" />
+<line x1="280" y1="0" x2="280" y2="280" class="grid-line" />
+<line x1="280" y1="840" x2="280" y2="1120" class="grid-line" />
+<line x1="0" y1="280" x2="280" y2="280" class="grid-line" />
+<line x1="840" y1="280" x2="1120" y2="280" class="grid-line" />
+<line x1="560" y1="0" x2="560" y2="280" class="grid-line" />
+<line x1="560" y1="840" x2="560" y2="1120" class="grid-line" />
+<line x1="0" y1="560" x2="280" y2="560" class="grid-line" />
+<line x1="840" y1="560" x2="1120" y2="560" class="grid-line" />
+<line x1="840" y1="0" x2="840" y2="280" class="grid-line" />
+<line x1="840" y1="840" x2="840" y2="1120" class="grid-line" />
+<line x1="0" y1="840" x2="280" y2="840" class="grid-line" />
+<line x1="840" y1="840" x2="1120" y2="840" class="grid-line" />
+<text x="294" y="28" class="sign-title">Aries / Mesha</text>
+<text x="294" y="45" class="sign-range">Total: 0° to 30°</text>
+<line x1="294" y1="53" x2="546" y2="53" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="296" y="74" class="padam-name">Ashwini 1</text>
+<text x="544" y="74" text-anchor="end" class="padam-deg">0° 00&#x27;</text>
+<text x="296" y="95" class="padam-name">Ashwini 2</text>
+<text x="544" y="95" text-anchor="end" class="padam-deg">3° 20&#x27;</text>
+<text x="296" y="116" class="padam-name">Ashwini 3</text>
+<text x="544" y="116" text-anchor="end" class="padam-deg">6° 40&#x27;</text>
+<text x="296" y="137" class="padam-name">Ashwini 4</text>
+<text x="544" y="137" text-anchor="end" class="padam-deg">10° 00&#x27;</text>
+<text x="296" y="158" class="padam-name">Bharani 1</text>
+<text x="544" y="158" text-anchor="end" class="padam-deg">13° 20&#x27;</text>
+<text x="296" y="179" class="padam-name">Bharani 2</text>
+<text x="544" y="179" text-anchor="end" class="padam-deg">16° 40&#x27;</text>
+<text x="296" y="200" class="padam-name">Bharani 3</text>
+<text x="544" y="200" text-anchor="end" class="padam-deg">20° 00&#x27;</text>
+<text x="296" y="221" class="padam-name">Bharani 4</text>
+<text x="544" y="221" text-anchor="end" class="padam-deg">23° 20&#x27;</text>
+<text x="296" y="242" class="padam-name">Krittika 1</text>
+<text x="544" y="242" text-anchor="end" class="padam-deg">26° 40&#x27;</text>
+<text x="574" y="28" class="sign-title">Taurus / Vrishabha</text>
+<text x="574" y="45" class="sign-range">Total: 30° to 60°</text>
+<line x1="574" y1="53" x2="826" y2="53" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="576" y="74" class="padam-name">Krittika 2</text>
+<text x="824" y="74" text-anchor="end" class="padam-deg">30° 00&#x27;</text>
+<text x="576" y="95" class="padam-name">Krittika 3</text>
+<text x="824" y="95" text-anchor="end" class="padam-deg">33° 20&#x27;</text>
+<text x="576" y="116" class="padam-name">Krittika 4</text>
+<text x="824" y="116" text-anchor="end" class="padam-deg">36° 40&#x27;</text>
+<text x="576" y="137" class="padam-name">Rohini 1</text>
+<text x="824" y="137" text-anchor="end" class="padam-deg">40° 00&#x27;</text>
+<text x="576" y="158" class="padam-name">Rohini 2</text>
+<text x="824" y="158" text-anchor="end" class="padam-deg">43° 20&#x27;</text>
+<text x="576" y="179" class="padam-name">Rohini 3</text>
+<text x="824" y="179" text-anchor="end" class="padam-deg">46° 40&#x27;</text>
+<text x="576" y="200" class="padam-name">Rohini 4</text>
+<text x="824" y="200" text-anchor="end" class="padam-deg">50° 00&#x27;</text>
+<text x="576" y="221" class="padam-name">Mrigashira 1</text>
+<text x="824" y="221" text-anchor="end" class="padam-deg">53° 20&#x27;</text>
+<text x="576" y="242" class="padam-name">Mrigashira 2</text>
+<text x="824" y="242" text-anchor="end" class="padam-deg">56° 40&#x27;</text>
+<text x="854" y="28" class="sign-title">Gemini / Mithuna</text>
+<text x="854" y="45" class="sign-range">Total: 60° to 90°</text>
+<line x1="854" y1="53" x2="1106" y2="53" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="856" y="74" class="padam-name">Mrigashira 3</text>
+<text x="1104" y="74" text-anchor="end" class="padam-deg">60° 00&#x27;</text>
+<text x="856" y="95" class="padam-name">Mrigashira 4</text>
+<text x="1104" y="95" text-anchor="end" class="padam-deg">63° 20&#x27;</text>
+<text x="856" y="116" class="padam-name">Ardra 1</text>
+<text x="1104" y="116" text-anchor="end" class="padam-deg">66° 40&#x27;</text>
+<text x="856" y="137" class="padam-name">Ardra 2</text>
+<text x="1104" y="137" text-anchor="end" class="padam-deg">70° 00&#x27;</text>
+<text x="856" y="158" class="padam-name">Ardra 3</text>
+<text x="1104" y="158" text-anchor="end" class="padam-deg">73° 20&#x27;</text>
+<text x="856" y="179" class="padam-name">Ardra 4</text>
+<text x="1104" y="179" text-anchor="end" class="padam-deg">76° 40&#x27;</text>
+<text x="856" y="200" class="padam-name">Punarvasu 1</text>
+<text x="1104" y="200" text-anchor="end" class="padam-deg">80° 00&#x27;</text>
+<text x="856" y="221" class="padam-name">Punarvasu 2</text>
+<text x="1104" y="221" text-anchor="end" class="padam-deg">83° 20&#x27;</text>
+<text x="856" y="242" class="padam-name">Punarvasu 3</text>
+<text x="1104" y="242" text-anchor="end" class="padam-deg">86° 40&#x27;</text>
+<text x="854" y="308" class="sign-title">Cancer / Karka</text>
+<text x="854" y="325" class="sign-range">Total: 90° to 120°</text>
+<line x1="854" y1="333" x2="1106" y2="333" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="856" y="354" class="padam-name">Punarvasu 4</text>
+<text x="1104" y="354" text-anchor="end" class="padam-deg">90° 00&#x27;</text>
+<text x="856" y="375" class="padam-name">Pushya 1</text>
+<text x="1104" y="375" text-anchor="end" class="padam-deg">93° 20&#x27;</text>
+<text x="856" y="396" class="padam-name">Pushya 2</text>
+<text x="1104" y="396" text-anchor="end" class="padam-deg">96° 40&#x27;</text>
+<text x="856" y="417" class="padam-name">Pushya 3</text>
+<text x="1104" y="417" text-anchor="end" class="padam-deg">100° 00&#x27;</text>
+<text x="856" y="438" class="padam-name">Pushya 4</text>
+<text x="1104" y="438" text-anchor="end" class="padam-deg">103° 20&#x27;</text>
+<text x="856" y="459" class="padam-name">Ashlesha 1</text>
+<text x="1104" y="459" text-anchor="end" class="padam-deg">106° 40&#x27;</text>
+<text x="856" y="480" class="padam-name">Ashlesha 2</text>
+<text x="1104" y="480" text-anchor="end" class="padam-deg">110° 00&#x27;</text>
+<text x="856" y="501" class="padam-name">Ashlesha 3</text>
+<text x="1104" y="501" text-anchor="end" class="padam-deg">113° 20&#x27;</text>
+<text x="856" y="522" class="padam-name">Ashlesha 4</text>
+<text x="1104" y="522" text-anchor="end" class="padam-deg">116° 40&#x27;</text>
+<text x="854" y="588" class="sign-title">Leo / Simha</text>
+<text x="854" y="605" class="sign-range">Total: 120° to 150°</text>
+<line x1="854" y1="613" x2="1106" y2="613" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="856" y="634" class="padam-name">Magha 1</text>
+<text x="1104" y="634" text-anchor="end" class="padam-deg">120° 00&#x27;</text>
+<text x="856" y="655" class="padam-name">Magha 2</text>
+<text x="1104" y="655" text-anchor="end" class="padam-deg">123° 20&#x27;</text>
+<text x="856" y="676" class="padam-name">Magha 3</text>
+<text x="1104" y="676" text-anchor="end" class="padam-deg">126° 40&#x27;</text>
+<text x="856" y="697" class="padam-name">Magha 4</text>
+<text x="1104" y="697" text-anchor="end" class="padam-deg">130° 00&#x27;</text>
+<text x="856" y="718" class="padam-name">Purva Phalguni 1</text>
+<text x="1104" y="718" text-anchor="end" class="padam-deg">133° 20&#x27;</text>
+<text x="856" y="739" class="padam-name">Purva Phalguni 2</text>
+<text x="1104" y="739" text-anchor="end" class="padam-deg">136° 40&#x27;</text>
+<text x="856" y="760" class="padam-name">Purva Phalguni 3</text>
+<text x="1104" y="760" text-anchor="end" class="padam-deg">140° 00&#x27;</text>
+<text x="856" y="781" class="padam-name">Purva Phalguni 4</text>
+<text x="1104" y="781" text-anchor="end" class="padam-deg">143° 20&#x27;</text>
+<text x="856" y="802" class="padam-name">Uttara Phalguni 1</text>
+<text x="1104" y="802" text-anchor="end" class="padam-deg">146° 40&#x27;</text>
+<text x="854" y="868" class="sign-title">Virgo / Kanya</text>
+<text x="854" y="885" class="sign-range">Total: 150° to 180°</text>
+<line x1="854" y1="893" x2="1106" y2="893" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="856" y="914" class="padam-name">Uttara Phalguni 2</text>
+<text x="1104" y="914" text-anchor="end" class="padam-deg">150° 00&#x27;</text>
+<text x="856" y="935" class="padam-name">Uttara Phalguni 3</text>
+<text x="1104" y="935" text-anchor="end" class="padam-deg">153° 20&#x27;</text>
+<text x="856" y="956" class="padam-name">Uttara Phalguni 4</text>
+<text x="1104" y="956" text-anchor="end" class="padam-deg">156° 40&#x27;</text>
+<text x="856" y="977" class="padam-name">Hasta 1</text>
+<text x="1104" y="977" text-anchor="end" class="padam-deg">160° 00&#x27;</text>
+<text x="856" y="998" class="padam-name">Hasta 2</text>
+<text x="1104" y="998" text-anchor="end" class="padam-deg">163° 20&#x27;</text>
+<text x="856" y="1019" class="padam-name">Hasta 3</text>
+<text x="1104" y="1019" text-anchor="end" class="padam-deg">166° 40&#x27;</text>
+<text x="856" y="1040" class="padam-name">Hasta 4</text>
+<text x="1104" y="1040" text-anchor="end" class="padam-deg">170° 00&#x27;</text>
+<text x="856" y="1061" class="padam-name">Chitra 1</text>
+<text x="1104" y="1061" text-anchor="end" class="padam-deg">173° 20&#x27;</text>
+<text x="856" y="1082" class="padam-name">Chitra 2</text>
+<text x="1104" y="1082" text-anchor="end" class="padam-deg">176° 40&#x27;</text>
+<text x="574" y="868" class="sign-title">Libra / Tula</text>
+<text x="574" y="885" class="sign-range">Total: 180° to 210°</text>
+<line x1="574" y1="893" x2="826" y2="893" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="576" y="914" class="padam-name">Chitra 3</text>
+<text x="824" y="914" text-anchor="end" class="padam-deg">180° 00&#x27;</text>
+<text x="576" y="935" class="padam-name">Chitra 4</text>
+<text x="824" y="935" text-anchor="end" class="padam-deg">183° 20&#x27;</text>
+<text x="576" y="956" class="padam-name">Swati 1</text>
+<text x="824" y="956" text-anchor="end" class="padam-deg">186° 40&#x27;</text>
+<text x="576" y="977" class="padam-name">Swati 2</text>
+<text x="824" y="977" text-anchor="end" class="padam-deg">190° 00&#x27;</text>
+<text x="576" y="998" class="padam-name">Swati 3</text>
+<text x="824" y="998" text-anchor="end" class="padam-deg">193° 20&#x27;</text>
+<text x="576" y="1019" class="padam-name">Swati 4</text>
+<text x="824" y="1019" text-anchor="end" class="padam-deg">196° 40&#x27;</text>
+<text x="576" y="1040" class="padam-name">Vishakha 1</text>
+<text x="824" y="1040" text-anchor="end" class="padam-deg">200° 00&#x27;</text>
+<text x="576" y="1061" class="padam-name">Vishakha 2</text>
+<text x="824" y="1061" text-anchor="end" class="padam-deg">203° 20&#x27;</text>
+<text x="576" y="1082" class="padam-name">Vishakha 3</text>
+<text x="824" y="1082" text-anchor="end" class="padam-deg">206° 40&#x27;</text>
+<text x="294" y="868" class="sign-title">Scorpio / Vrishchika</text>
+<text x="294" y="885" class="sign-range">Total: 210° to 240°</text>
+<line x1="294" y1="893" x2="546" y2="893" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="296" y="914" class="padam-name">Vishakha 4</text>
+<text x="544" y="914" text-anchor="end" class="padam-deg">210° 00&#x27;</text>
+<text x="296" y="935" class="padam-name">Anuradha 1</text>
+<text x="544" y="935" text-anchor="end" class="padam-deg">213° 20&#x27;</text>
+<text x="296" y="956" class="padam-name">Anuradha 2</text>
+<text x="544" y="956" text-anchor="end" class="padam-deg">216° 40&#x27;</text>
+<text x="296" y="977" class="padam-name">Anuradha 3</text>
+<text x="544" y="977" text-anchor="end" class="padam-deg">220° 00&#x27;</text>
+<text x="296" y="998" class="padam-name">Anuradha 4</text>
+<text x="544" y="998" text-anchor="end" class="padam-deg">223° 20&#x27;</text>
+<text x="296" y="1019" class="padam-name">Jyeshtha 1</text>
+<text x="544" y="1019" text-anchor="end" class="padam-deg">226° 40&#x27;</text>
+<text x="296" y="1040" class="padam-name">Jyeshtha 2</text>
+<text x="544" y="1040" text-anchor="end" class="padam-deg">230° 00&#x27;</text>
+<text x="296" y="1061" class="padam-name">Jyeshtha 3</text>
+<text x="544" y="1061" text-anchor="end" class="padam-deg">233° 20&#x27;</text>
+<text x="296" y="1082" class="padam-name">Jyeshtha 4</text>
+<text x="544" y="1082" text-anchor="end" class="padam-deg">236° 40&#x27;</text>
+<text x="14" y="868" class="sign-title">Sagittarius / Dhanu</text>
+<text x="14" y="885" class="sign-range">Total: 240° to 270°</text>
+<line x1="14" y1="893" x2="266" y2="893" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="16" y="914" class="padam-name">Mula 1</text>
+<text x="264" y="914" text-anchor="end" class="padam-deg">240° 00&#x27;</text>
+<text x="16" y="935" class="padam-name">Mula 2</text>
+<text x="264" y="935" text-anchor="end" class="padam-deg">243° 20&#x27;</text>
+<text x="16" y="956" class="padam-name">Mula 3</text>
+<text x="264" y="956" text-anchor="end" class="padam-deg">246° 40&#x27;</text>
+<text x="16" y="977" class="padam-name">Mula 4</text>
+<text x="264" y="977" text-anchor="end" class="padam-deg">250° 00&#x27;</text>
+<text x="16" y="998" class="padam-name">Purva Ashadha 1</text>
+<text x="264" y="998" text-anchor="end" class="padam-deg">253° 20&#x27;</text>
+<text x="16" y="1019" class="padam-name">Purva Ashadha 2</text>
+<text x="264" y="1019" text-anchor="end" class="padam-deg">256° 40&#x27;</text>
+<text x="16" y="1040" class="padam-name">Purva Ashadha 3</text>
+<text x="264" y="1040" text-anchor="end" class="padam-deg">260° 00&#x27;</text>
+<text x="16" y="1061" class="padam-name">Purva Ashadha 4</text>
+<text x="264" y="1061" text-anchor="end" class="padam-deg">263° 20&#x27;</text>
+<text x="16" y="1082" class="padam-name">Uttara Ashadha 1</text>
+<text x="264" y="1082" text-anchor="end" class="padam-deg">266° 40&#x27;</text>
+<text x="14" y="588" class="sign-title">Capricorn / Makara</text>
+<text x="14" y="605" class="sign-range">Total: 270° to 300°</text>
+<line x1="14" y1="613" x2="266" y2="613" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="16" y="634" class="padam-name">Uttara Ashadha 2</text>
+<text x="264" y="634" text-anchor="end" class="padam-deg">270° 00&#x27;</text>
+<text x="16" y="655" class="padam-name">Uttara Ashadha 3</text>
+<text x="264" y="655" text-anchor="end" class="padam-deg">273° 20&#x27;</text>
+<text x="16" y="676" class="padam-name">Uttara Ashadha 4</text>
+<text x="264" y="676" text-anchor="end" class="padam-deg">276° 40&#x27;</text>
+<text x="16" y="697" class="padam-name">Shravana 1</text>
+<text x="264" y="697" text-anchor="end" class="padam-deg">280° 00&#x27;</text>
+<text x="16" y="718" class="padam-name">Shravana 2</text>
+<text x="264" y="718" text-anchor="end" class="padam-deg">283° 20&#x27;</text>
+<text x="16" y="739" class="padam-name">Shravana 3</text>
+<text x="264" y="739" text-anchor="end" class="padam-deg">286° 40&#x27;</text>
+<text x="16" y="760" class="padam-name">Shravana 4</text>
+<text x="264" y="760" text-anchor="end" class="padam-deg">290° 00&#x27;</text>
+<text x="16" y="781" class="padam-name">Dhanishta 1</text>
+<text x="264" y="781" text-anchor="end" class="padam-deg">293° 20&#x27;</text>
+<text x="16" y="802" class="padam-name">Dhanishta 2</text>
+<text x="264" y="802" text-anchor="end" class="padam-deg">296° 40&#x27;</text>
+<text x="14" y="308" class="sign-title">Aquarius / Kumbha</text>
+<text x="14" y="325" class="sign-range">Total: 300° to 330°</text>
+<line x1="14" y1="333" x2="266" y2="333" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="16" y="354" class="padam-name">Dhanishta 3</text>
+<text x="264" y="354" text-anchor="end" class="padam-deg">300° 00&#x27;</text>
+<text x="16" y="375" class="padam-name">Dhanishta 4</text>
+<text x="264" y="375" text-anchor="end" class="padam-deg">303° 20&#x27;</text>
+<text x="16" y="396" class="padam-name">Shatabhisha 1</text>
+<text x="264" y="396" text-anchor="end" class="padam-deg">306° 40&#x27;</text>
+<text x="16" y="417" class="padam-name">Shatabhisha 2</text>
+<text x="264" y="417" text-anchor="end" class="padam-deg">310° 00&#x27;</text>
+<text x="16" y="438" class="padam-name">Shatabhisha 3</text>
+<text x="264" y="438" text-anchor="end" class="padam-deg">313° 20&#x27;</text>
+<text x="16" y="459" class="padam-name">Shatabhisha 4</text>
+<text x="264" y="459" text-anchor="end" class="padam-deg">316° 40&#x27;</text>
+<text x="16" y="480" class="padam-name">Purva Bhadrapada 1</text>
+<text x="264" y="480" text-anchor="end" class="padam-deg">320° 00&#x27;</text>
+<text x="16" y="501" class="padam-name">Purva Bhadrapada 2</text>
+<text x="264" y="501" text-anchor="end" class="padam-deg">323° 20&#x27;</text>
+<text x="16" y="522" class="padam-name">Purva Bhadrapada 3</text>
+<text x="264" y="522" text-anchor="end" class="padam-deg">326° 40&#x27;</text>
+<text x="14" y="28" class="sign-title">Pisces / Meena</text>
+<text x="14" y="45" class="sign-range">Total: 330° to 360°</text>
+<line x1="14" y1="53" x2="266" y2="53" stroke="#e0dbd1" stroke-width="1.5" />
+<text x="16" y="74" class="padam-name">Purva Bhadrapada 4</text>
+<text x="264" y="74" text-anchor="end" class="padam-deg">330° 00&#x27;</text>
+<text x="16" y="95" class="padam-name">Uttara Bhadrapada 1</text>
+<text x="264" y="95" text-anchor="end" class="padam-deg">333° 20&#x27;</text>
+<text x="16" y="116" class="padam-name">Uttara Bhadrapada 2</text>
+<text x="264" y="116" text-anchor="end" class="padam-deg">336° 40&#x27;</text>
+<text x="16" y="137" class="padam-name">Uttara Bhadrapada 3</text>
+<text x="264" y="137" text-anchor="end" class="padam-deg">340° 00&#x27;</text>
+<text x="16" y="158" class="padam-name">Uttara Bhadrapada 4</text>
+<text x="264" y="158" text-anchor="end" class="padam-deg">343° 20&#x27;</text>
+<text x="16" y="179" class="padam-name">Revati 1</text>
+<text x="264" y="179" text-anchor="end" class="padam-deg">346° 40&#x27;</text>
+<text x="16" y="200" class="padam-name">Revati 2</text>
+<text x="264" y="200" text-anchor="end" class="padam-deg">350° 00&#x27;</text>
+<text x="16" y="221" class="padam-name">Revati 3</text>
+<text x="264" y="221" text-anchor="end" class="padam-deg">353° 20&#x27;</text>
+<text x="16" y="242" class="padam-name">Revati 4</text>
+<text x="264" y="242" text-anchor="end" class="padam-deg">356° 40&#x27;</text>
+</svg>

@@ -1,0 +1,117 @@
+* Master Guide to Rashi Gochar Vedha and Lunar Transits
+** 1. The Fundamental Principle: The Mind and the Moon
+Everyone experiences days that are exceptionally peaceful and days filled with unexpected tension. In Vedic astrology, daily happiness, peace, and satisfaction originate entirely from the state of the human mind.
+
+- *The Moon as the Ruler:* The Moon is the /Manokaraka/ (the celestial factor controlling the mind).
+- *The Transit Timeline:* Unlike slower planets, the Moon travels rapidly through the 12 zodiac signs, staying in a single sign for approximately 2¼ days (54 hours).
+- *Gochara Strength:* Daily predictions are not calculated from your birth ascendant (Lagna), but rather from your Moon sign (Janma Rashi). If the transiting Moon is in an auspicious position relative to your birth Rasi, your day will be successful; if it is in a malefic position, obstacles will arise.
+
+** 2. Core Concepts: Vedha and Vipreet Vedha
+/Gochar/ means transit—the continuous movement of planets through the 12 zodiac signs relative to your Natal Moon. Every planet has specific houses where it is naturally capable of giving auspicious results (/Ishtasthanam/). However, these results are not absolute. They are governed by the laws of /Vedha/ (Obstruction).
+
+*** Vedha (Planetary Obstruction)
+The word Vedha means "piercing" or "blocking." Even if a planet enters a highly favorable house from your Moon, it cannot deliver its positive results if another planet occupies a specific corresponding house at the exact same time. The house causing the blockage is called the /Vedha Sthana/.
+- *Analogy:* Think of it like placing a massive wooden board in front of a bright torch—the light exists, but it cannot reach you.
+
+*** Vipreet Vedha (Reverse Obstruction)
+Just as good results can be blocked, bad results can also be neutralized. If a planet is transiting an unfavorable house (where it is supposed to give bad results), but another planet is sitting in its corresponding favorable house, the malefic effects of the transit are blocked or minimized, providing a protective shield.
+
+** 3. Deep Dive: The 12 House Transits of the Moon
+The impact of the Moon shifts dramatically depending on which house it is transiting relative to your birth sign.
+
+*** A. Favorable Transits (Ishtasthanam)
+When the Moon passes through the 1st, 3rd, 6th, 7th, 10th, and 11th houses, it brings positive results, provided it does not suffer from Vedha:
+- *1st House (Natal Moon):* Delivers satisfying food, peaceful sleep, financial profits, and the desire to purchase new clothes or gifts. It brings general domestic peace and maternal happiness. (Obstructed by a planet in the 5th House)
+- *3rd House:* Brings unexpected monetary gains, support or happiness from women, career promotions, and sudden profits in business. (Obstructed by a planet in the 9th House)
+- *6th House:* Promotes excellent physical health, mental bliss, financial growth, and the systematic weakening of your enemies' influence. (Obstructed by a planet in the 12th House)
+- *7th House:* Guarantees satisfying meals, deep sleep, supplemental income, and a high level of social respect and public value. (Obstructed by a planet in the 2nd House)
+- *10th House:* Bestows "royal respect" (high recognition), significant developments or promotions at work, professional praise, physical vitality, and mental contentment. (Obstructed by a planet in the 4th House)
+- *11th House:* The house of pure gain. Relatives and friends bring gifts or business opportunities, loans are easily approved, and career ambitions are successfully fulfilled. (Obstructed by a planet in the 8th House)
+
+*** B. Unfavorable Transits (Vedasthanam / Malefic Places)
+When the Moon passes through the 2nd, 4th, 5th, 8th, 9th, and 12th houses, it triggers vulnerabilities:
+- *2nd House:* Causes Karmic Vignam (obstacles in daily operations). Easy tasks become tedious, financial losses or home thefts can occur, and minor dishonor or reputational damage may manifest.
+- *4th House:* Induces a constant fear of losing one's job or status. Prone to water-borne ailments (severe colds/throat issues) and unnecessary domestic lawsuits or relative disputes.
+- *5th House:* Manifests as physical lethargy or arthritis-like discomfort (numbness in hands and feet), alongside heavy mental anxiety, sorrow, and operational delays.
+- *8th House (Chandrashtama):* Highly Malefic. Triggers intense mental confusion, poor decision-making capacity (feeling like "a fading lamp in a wild forest"), a severe risk of food poisoning or stomach distress, and sudden, intense anger that leads to unnecessary fights.
+- *9th House:* Completely drains personal courage and self-confidence. Hesitation dominates decision-making, unexpected stomach aches occur, and progress stalls.
+- *12th House:* Triggers profound laziness, absolute loss of interest in work, eating, or studying, and severe mental depression. Monies promised by debtors are delayed, and business encounters stagnation.
+
+** 4. The Master Planetary Vedha Table
+To calculate whether a planet's transit results are active or obstructed, use this universal master matrix pairing favorable houses with their corresponding obstructing (Vedha) houses.
+
+| Transiting Planet | Auspicious Houses (From Moon) | Corresponding Obstructing (Vedha) Houses   |
+|-------------------+-------------------------------+--------------------------------------------|
+| Moon              | 1, 3, 6, 7, 10, 11            | 5, 9, 12, 2, 4, 8 (respectively)           |
+| Sun               | 3, 6, 10, 11                  | 9, 12, 4, 5 (respectively)                 |
+| Mars              | 3, 6, 11                      | 12, 9, 5 (respectively)                    |
+| Mercury           | 2, 4, 6, 8, 10, 11            | 5, 3, 9, 1, 8, 12 (respectively)           |
+| Jupiter           | 2, 5, 7, 9, 11                | 12, 4, 3, 10, 8 (respectively)             |
+| Venus             | 1, 2, 3, 4, 5, 8, 9, 11, 12   | 8, 7, 1, 10, 9, 5, 11, 6, 3 (respectively) |
+| Saturn            | 3, 6, 11                      | 12, 9, 5 (respectively)                    |
+
+*** Crucial Exceptions to Vedha
+Certain planets share relationships that make them immune to mutual obstruction:
+- *Sun and Saturn:* Mythologically father and son, they do not obstruct one another. If the Sun is in its auspicious 11th house and Saturn is in the 5th house, Saturn will not block the Sun's blessings.
+- *Moon and Mercury:* These two fast-moving planets are exempt from mutual obstruction. Mercury sitting in the Vedha point of the Moon will not block the Moon, and vice versa.
+
+** 5. The Ashtakavarga
+To understand why generic daily horoscopes do not always come true, baseline Gochara transits must be overlaid with personalized structural metrics:
+
+- *The Rule of Ashtakavarga Bindus:* Every individual horoscope contains a personalized Ashtakavarga chart mapping out strength points (Bindus) ranging from 0 to 8 for each zodiac sign.
+  - *More than 4 Bindus (> 4):* If a planet transits a sign where your birth chart holds more than 4 points, malefic transits (like Chandrashtama or the 12th house) lose their destructive power, and auspicious transits yield maximum rewards.
+  - *Less than 4 Bindus (< 4):* If a sign has only 2 or 3 points, even a standard "favorable" transit will fail to produce good results, leading to unexpected stagnation.
+- *Gochar Murthis:* Planets also assume a specific metal form (Murthi) when entering a new sign based on the position of the Moon at that exact moment: Gold (Highly Auspicious), Silver (Auspicious), Copper (Average), or Iron (Malefic). An iron-state planet transiting a low-Bindu house under Vedha obstruction indicates highly challenging operational periods.
+
+** SUN: Good Houses vs. Blocking Houses
+If the Sun is in these *favorable* houses, its results get *blocked* if another planet occupies the paired house:
+- 3rd GOOD ⟶ Blocked by 9th
+- 6th GOOD ⟶ Blocked by 12th
+- 10th GOOD ⟶ Blocked by 4th
+- 11th GOOD ⟶ Blocked by 5th
+
+** MOON: Good Houses vs. Blocking Houses
+- 1st GOOD ⟶ Blocked by 5th
+- 3rd GOOD ⟶ Blocked by 9th
+- 6th GOOD ⟶ Blocked by 12th
+- 7th GOOD ⟶ Blocked by 2nd
+- 10th GOOD ⟶ Blocked by 4th
+- 11th GOOD ⟶ Blocked by 8th
+
+** MARS / SATURN / RAHU / KETU: Good Houses vs. Blocking Houses
+- 3rd GOOD ⟶ Blocked by 12th
+- 6th GOOD ⟶ Blocked by 9th
+- 11th GOOD ⟶ Blocked by 5th
+
+** MERCURY: Good Houses vs. Blocking Houses
+- 2nd GOOD ⟶ Blocked by 5th
+- 4th GOOD ⟶ Blocked by 3rd
+- 6th GOOD ⟶ Blocked by 9th
+- 8th GOOD ⟶ Blocked by 1st
+- 10th GOOD ⟶ Blocked by 8th
+- 11th GOOD ⟶ Blocked by 2nd
+
+** JUPITER: Good Houses vs. Blocking Houses
+- 2nd GOOD ⟶ Blocked by 12th
+- 5th GOOD ⟶ Blocked by 4th
+- 7th GOOD ⟶ Blocked by 3rd
+- 9th GOOD ⟶ Blocked by 10th
+- 11th GOOD ⟶ Blocked by 8th
+
+** VENUS: Good Houses vs. Blocking Houses
+- 1st GOOD ⟶ Blocked by 7th
+- 2nd GOOD ⟶ Blocked by 7th
+- 3rd GOOD ⟶ Blocked by 1st
+- 4th GOOD ⟶ Blocked by 10th
+- 5th GOOD ⟶ Blocked by 9th
+- 8th GOOD ⟶ Blocked by 5th
+- 9th GOOD ⟶ Blocked by 11th
+- 11th GOOD ⟶ Blocked by 6th
+- 12th GOOD ⟶ Blocked by 3rd
+
+*** links
+- https://youtu.be/nxcEd7T16po?si=2dbuHtQq2SMd7xyF
+- https://youtu.be/Fl3sU1Ro27w?si=1CnJP0UMkBqLR4_D
+- https://www.scribd.com/presentation/951983372/Vedha-and-Vipreet-Vedha-Positions-of-Planets
+- https://ashtakvargajyoti.wordpress.com/2015/01/30/rashi-gochar-vedha-transit-based-planetary-obstruction/
+- https://www.facebook.com/tvamapp/posts/%EF%B8%8F-this-concept-of-vedha-will-blow-your-mind-it-will-shatter-the-way-you-read-tra/1345595454253973/
